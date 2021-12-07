@@ -1,17 +1,17 @@
 let gif;
 
 function preload() {
-  gif = loadImage ('untitled folder/AiBG.gif');
+  gif = loadImage ('gifs/flowerguy2.gif');
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-background(0,0,0);
+background(255,255,255);
+translate(12,12);
 
-
-var num = 5; // variable for the number of squares in the array
+var num = 8; // variable for the number of squares in the array
 var sideLen = windowWidth / num; // variable for the side length of each square
 
 
