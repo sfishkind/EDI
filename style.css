@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family:'Roboto', sans-serif;
+  font-family:'Roboto', sans-serif; // how do you make a border?
   background-color: rgb(255, 255, 255);
 }
 
@@ -12,6 +12,10 @@ canvas {
 
 img {
   border: 5px solid #000;
+}
+
+h2{
+  position: absolute;
 }
 
 h1{
